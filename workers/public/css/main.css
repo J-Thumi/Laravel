@@ -1,0 +1,28 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 8px;
+    border: solid black 1px;
+}
+th{
+    background-color: aliceblue;
+}
+button{
+    border: solid 1px black;
+   width: 70px;
+   height: 50px;
+    border-radius: 4px;
+    margin: 20px;
+    justify-content: center;
+
+}
+button:hover{
+    background-color:wheat;
+}
+a{
+    color:grey;
+    text-decoration: none;
+    font-size: medium;
+}
