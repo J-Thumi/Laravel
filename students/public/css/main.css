@@ -1,0 +1,28 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 50px;
+   
+}
+th,td{
+    border: 1px black solid;
+    padding: 4px;
+    /* text-align: center; */
+}
+th{
+
+    background-color: aliceblue;
+}
+
+a{
+   font-size: medium;
+   text-decoration: none; 
+}
+.createbtn{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    margin-left: 400px;
+    margin-top: 40px;
+}
+
