@@ -1,0 +1,13 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+th,td{
+    border: 9px solid black;
+    padding: 2px;
+}
+
+th{
+    background-color: aliceblue;
+}
