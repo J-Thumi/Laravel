@@ -26,3 +26,59 @@ a{
     text-decoration: none;
     font-size: medium;
 }
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 30px;
+    border: 1px solid black;
+    padding: 20px;
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 350px; 
+}
+.label{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+.label input{
+    border: 0px;
+    text-decoration: dashed;
+    font-size: medium;
+}
+label{
+    text-transform: uppercase;
+    margin-right: 3px;
+    font-weight: 900;
+}
+.btn{
+    margin: 20px;
+    border: 0px;
+    width: 80px;
+    height: 40px;
+    text-transform: uppercase;
+    border-radius: 40px;
+    background-color: antiquewhite;
+margin-left: 530px;
+}
+.btn:hover{
+    background-color: aliceblue;
+}
+fieldset{
+    margin-left: 350px;
+    width: 270px;
+    align-items: center;
+    justify-content: center;
+    /* padding: 30px; */
+    padding-left: 140px;
+}
+fieldset input{
+    font-size: medium;
+}

@@ -35,4 +35,15 @@ class WorkersController extends Controller
 
         return redirect('/workers')->with('message','Thank you you created a new worker');
     }
+
+    public function show($id){
+        $worker=Worker::findOrFail($id);
+        return view('workers.show',['worker'=>$worker]);
+    }
+    public function destroy($id){
+        $worker=Worker::findOrFail($id);
+        $worker->delete();
+        return redirect()->route('workers.index')->with('message','A worker was fired');
+    }
+
 }
