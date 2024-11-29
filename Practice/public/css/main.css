@@ -1,0 +1,16 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+th,td{
+    padding: 4px;
+    border: black 1px solid;
+    text-align: center;
+}
+th{
+    background-color: aliceblue;
+}
+a:hover{
+background-color: aliceblue;
+}
